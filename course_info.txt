@@ -1,0 +1,99 @@
+
+
+## Course Goal
+
+Students will learn to design, build, and deploy enterprise-grade AI agents and multi-agent systems on Google Cloud Platform. The program develops hands-on skills in reasoning, planning, tool use, memory, orchestration, security, and enterprise integration. Through a connected lab journey, students will evolve a single agent platform from Week 1 to Week 6, continuously enhanced and incorporated into the final solution.
+
+## What students will be building
+
+Students will build an Enterprise Problem Consolidation(EPC) Agent one layer at a time. The journey starts with understanding incoming messages and gradually expands to clustering, impact scoring, human approval workflows, enterprise integrations, monitoring, and cloud deployment. By Week 6, individual agentic AI capabilities come together as a complete end-to-end system that can detect emerging business problems within minutes of their first appearance.
+
+# Agentic AI on Google Cloud Platform (GCP)
+## 6-Week Course – Project Overview
+
+| Platform                    | Duration    |
+| --------------------------- | ----------- |
+| Google Cloud Platform (GCP) | **6 Weeks** |
+
+---
+
+# Capstone Goal
+
+Students will build an **Enterprise Problem Consolidation Agent** one layer at a time. The journey begins by understanding incoming support messages and gradually expands into clustering, impact scoring, human approval workflows, enterprise integrations, monitoring, and cloud deployment.
+
+By **Week 6**, all agentic AI capabilities come together into a complete end-to-end enterprise system capable of detecting emerging business problems within minutes of their first appearance.
+
+---
+
+# End-to-End Workflow
+
+```text
+Ticket Arrives
+      ↓
+Understand
+      ↓
+Cluster
+      ↓
+Score Impact
+      ↓
+Human Approves
+```
+
+**Workflow Technologies**
+
+- Pub/Sub triggers on every new ticket
+- Gemini extracts structured meaning
+- Vector Search clusters similar messages
+- BigQuery + Drive RAG enriches information
+- Human approval before Gmail / Chat notifications
+
+---
+
+# Agentic AI Skills × GCP Technology
+
+| Agentic AI Skill                           | GCP / Technology Used                                                                                                                   |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Guardrails & Safety                        | Input classifier blocks prompt injection and output validator verifies every handoff                                                    |
+| Human-in-the-Loop                          | Gradio admin panel enables human approval before Gmail / Chat notifications                                                             |
+| Memory Management (Dual Layer)             | Firestore (live state) + BigQuery (historical incident archive)                                                                         |
+| Multi-Agent Coordination (4 Agents) & MCPs | Cloud Workflows orchestrates four specialized agents: Meaning Extraction, Ticket Clustering, Impact Scoring, and Escalation Preparation |
+| Observability & Self-Maintenance           | Cloud Monitoring + Cloud Trace + Vertex AI Pipelines for automated monitoring and maintenance                                           |
+| Prompt Engineering & Fine-Tuning           | Gemini (custom tuned on company messages) extracts product area, urgency, and region                                                     |
+| Retrieval-Augmented Generation (RAG)       | Google Drive + Vertex AI Vector Search + BM25 fetch relevant historical incidents                                                       |
+| Tool Use / Function Calling                | Gemini autonomously decides when to call enterprise tools and retrieve cluster history                                                  |
+
+---
+
+## Exit Outcome
+
+Students build enterprise AI expertise by developing a fully operational agentic solution on Google Cloud Platform that delivers measurable business value.
+
+## Glimse of the Curriculum
+
+| **Week**                                                            | **Topics We'll Cover**                                                                 | **What We Add to the EPR Platform**                                                                                                                                                                              |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Week 1 – Agentic AI Foundations & Ticket Understanding**          | Agentic AI, Enterprise AI, Prompt Engineering, Structured Outputs, Agent Memory        | The platform starts understanding incoming customer messages automatically. Instead of reading raw text, it identifies the product, issue type, urgency, and other key information in a structured way.           |
+| **Week 2 – GCP Setup, RAG & Intelligent Search**                    | Google Cloud Basics, GitHub, Embeddings, Vector Search, RAG, Tool Calling              | The platform begins recognizing when multiple messages are talking about the same underlying problem. It also starts learning from historical incidents to provide better context.                                |
+| **Week 3 – Memory, Safety & Deployment**                            | Agent Memory, Guardrails, Human Oversight, Cloud Deployment                            | The platform now remembers how issues evolve over time, protects itself from incorrect or malicious inputs, and becomes available as a live cloud application.                                                   |
+| **Week 4 – Multi-Agent Collaboration & Impact Analysis**            | Multi-Agent Systems, Workflow Orchestration, Planning, Reflection, Parallel Processing | Different AI agents start working together like a team. One understands messages, another groups them, another measures business impact, and another prepares escalation reports for human review.                |
+| **Week 5 – Enterprise Integrations & Advanced Knowledge Retrieval** | MCP, Advanced RAG, Agent-to-Agent Communication, Skills, Context Engineering           | The platform connects with enterprise tools like Drive, Docs, Gmail, and Chat. It automatically gathers supporting information, prepares reports, and drafts notifications for stakeholders.                     |
+| **Week 6 – Monitoring, Evaluation & Final Product**                 | Observability, Agent Evaluation, Optimization, Production Deployment                   | The complete Enterprise Problem Resolution Platform is ready. It continuously monitors incoming issues, detects emerging business problems, recommends escalations, and keeps improving its responses over time. |
+
+## Final outcomes of the Course
+
+- Students will be able to identify business problems where agentic AI is the right fit, and distinguish them from cases that only need a simple automation or chatbot flow.
+
+- Students will be able to design agent workflows with clear reasoning, task steps, and decision logic so the system knows what to do and when to do it.
+
+- Students will be able to build agents that can complete multi-step tasks reliably, even when user input is messy, incomplete, or changing.
+
+- Students will be able to integrate agents with APIs, databases, and external tools so they can act on real systems instead of staying isolated in a demo.
+
+- Students will be able to implement retrieval-based grounding so agent responses stay connected to trusted context and reduce unsupported outputs.
+
+- Students will be able to deploy agentic applications on GCP in a way that supports reliability, scalability, and practical real-world usage.
+
+- Students will be able to apply safety and governance controls that keep agent behavior within expected boundaries and reduce operational risk.
+
+- Students will be able to evaluate agent performance using traces, tests, and metrics so the system can be improved based on evidence, not guesswork.
+
